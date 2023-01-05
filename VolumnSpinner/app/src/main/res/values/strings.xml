@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">VolumnSpinner</string>
+    <string-array name="combo_values">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
 </resources>

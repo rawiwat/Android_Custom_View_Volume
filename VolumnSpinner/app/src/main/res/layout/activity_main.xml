@@ -7,11 +7,18 @@
     tools:context=".activity.MainActivity">
 
     <com.example.volumnspinner.view.comboview
+        app:textSize="32sp"
+        app:layout_weight="6"
+        android:entries="@array/combo_values"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.volumnspinner.view.movingbox
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

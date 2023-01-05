@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <com.example.ballin.view.movingBall
+        android:id="@+id/blueball"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        />
+
+    <TextView
+        android:id="@+id/volumeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/haha"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/blueball"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
